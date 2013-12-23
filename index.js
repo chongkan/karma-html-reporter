@@ -55,7 +55,7 @@ var HtmlReporter = function(baseReporterDecorator, config, emitter, logger, help
 			var templatePath = config.templatePath || __dirname + "/jasmine_template.html";
 			var template = mu.compileAndRender(templatePath, results);
 			template.pause();
-			var reportFile = outputDir + '/' + results.browserName + '/index.html';
+			var reportFile = outputDir + '/index.html';
 			var writeStream;
 			helper.mkdirIfNotExists(path.dirname(reportFile), function() {
 
