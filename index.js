@@ -26,6 +26,7 @@ var HtmlReporter = function(baseReporterDecorator, config, emitter, logger, help
 		var browserInfo;
 		var timestamp = (new Date()).toISOString().substr(0, 19);
 		allMessages = [];
+		this._browsers = [];
 		browsers.forEach(function(browser) {
 			browserInfo = browserResults[browser.id] = {
 				browserName : browser.name,
