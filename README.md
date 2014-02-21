@@ -3,7 +3,7 @@
 > Reporter that formats results in HTML similar to jasmine.
 
 ## What's in this fork?
-I've just unified the output folder and add a little modification to make the plugin work with Karma `0.11.x`
+I've just unified the output folder and I've added a little modification to make the plugin work with Karma `0.11.x`
 
 ## Installation
 
